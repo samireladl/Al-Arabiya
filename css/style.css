@@ -1,0 +1,88 @@
+
+.navbar .nav-link,
+.navbar .navbar-brand
+ {
+    color:black;
+    font-size: 20px;
+}
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+    color:rgb(13, 110, 253);
+}
+header{
+    height:100vh;
+    background-color:rgb(13, 110, 253);
+    background-size: cover;
+}
+.typingClass::after{
+    content: "";
+    animation: typing 7s infinite;
+}
+@keyframes typing{
+    5%{ content: "|"; }
+    10% { content: " l-A|"; }
+    15% { content: " l-Ara|"; }
+    20% { content: " l-Arab|"; }
+    25% { content: " l-Arabiya|"; }
+    30% { content: " l-Arabiya fo|"; }
+    35% { content: " l-Arabiya for|"; }
+    40% { content: " l-Arabiya for inv|"; }
+    45% { content: " l-Arabiya for invest|"; }
+    50% { content: " l-Arabiya for investment|"; }
+    55% { content: " l-Arabiya for invest|"; }
+    60% { content: " l-Arabiya for inv|"; }
+    65% { content: " l-Arabiya for|"; }
+    70% { content: " l-Arabiya fo|"; }
+    75% { content: " l-Arabiya|"; }
+    80% { content: " l-Araby|"; }
+    85% { content: " l-Arab|"; }
+    90% { content: " l-Ara|"; }
+    95% { content: " l-A|"; }
+    100%{ content: "|"; }
+}
+.skill-item p{
+    margin:0px !important;
+    padding:0px;
+}
+.line{
+    width:100px;
+    height:3px;
+}
+.card{
+    border:0px;
+   margin-top:50px;
+}
+.card-img{
+    overflow: hidden;
+    height: 300px;
+}
+.card-body-icon{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.card:hover img{
+    transform: scale(1.5,1.5);
+}
+.card img{
+    transition: transform 1s;
+}
+
+.map-container {
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.list-group li{
+    list-style-type: none;
+    text-align: left;
+    padding-left:5% ;
+}
+
